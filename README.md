@@ -11,4 +11,4 @@ public static final String KEY = "Update your key here";
 
 1) Main search - by keyword or category 2) Favorites 3) Around me - Map view
 
-<img src="" height="355" width="200">
+<img src="https://github.com/RoeyVeg/PointsofInterest/blob/master/mainActivity.png" height="355" width="200">
