@@ -26,7 +26,6 @@ public class AroundUserIntentService extends IntentService {
     //********** Intent service to maps-api nearby search with no Key word to get all places around user location with defined radius which will be presented in the whats around me Map
 
     public static final String ACTION_SEARCH_ALL_PLACES = "search_all_placess_broadcast";
-    public static final String KEY = "AIzaSyA0kg7SFWsNcmHGP8yGeZTAAfnBimMCsEc";
     public static final String RESPONSE_ALL_PLACES = "responseAllPlaces";
 
     public AroundUserIntentService() {
