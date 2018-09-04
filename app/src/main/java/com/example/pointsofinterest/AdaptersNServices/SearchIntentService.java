@@ -37,7 +37,6 @@ public class SearchIntentService extends IntentService {
 
 
     public static final String ACTION_SEARCH_PLACES = "search_places_broadcast";
-    public static final String KEY = "AIzaSyA0kg7SFWsNcmHGP8yGeZTAAfnBimMCsEc";
 
 
     public SearchIntentService() {
