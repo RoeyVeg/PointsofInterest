@@ -22,7 +22,6 @@ import static com.example.pointsofinterest.AdaptersNServices.SearchRecyclerViewA
 public class DetailsIntentService extends IntentService {
 
     public static final String ACTION_PLACE_DETAILS = "place_details_broadcast";
-    public static final String KEY = "AIzaSyA0kg7SFWsNcmHGP8yGeZTAAfnBimMCsEc";
     public static final String RESPONSE_DETAILS = "responseDetails";
 
 
