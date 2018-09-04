@@ -10,3 +10,5 @@ public static final String KEY = "Update your key here";
 # Screen shots
 
 1) Main search - by keyword or category 2) Favorites 3) Around me - Map view
+
+<img src="" height="355" width="200">
