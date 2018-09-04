@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SearchResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/searchResultTabletContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="#48C79C" />
+
+        <FrameLayout
+            android:id="@+id/placeDetailsTabletContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+<!--
+
+     <LinearLayout
+                android:id="@+id/mapContainerTablet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <fragment
+                    android:id="@+id/mapTablet"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/listViewTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#B0C4DE"
+                android:dividerHeight="1dp"
+                android:scrollbars="none"></ListView>
+
+
+            <LinearLayout
+                android:id="@+id/stickyViewTablet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#778899"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/addToFavBtnTablet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@mipmap/ic_favorite_pic_round"
+                    android:translationZ="5dp" />
+
+                <ImageView
+                    android:id="@+id/shareBtnTablet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@mipmap/ic_share_pic_round"
+                    android:translationZ="5dp" />
+
+
+            </LinearLayout>
+
+
+-->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MainMapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <fragment
+        android:id="@+id/mapInMain"
+        android:layout_weight="1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/mapCircleRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:background="#E0E0E0"
+        android:padding="2dp"
+        android:text="@string/search_radius_text"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+
+</FrameLayout>

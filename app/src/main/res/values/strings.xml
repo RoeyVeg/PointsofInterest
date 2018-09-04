@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Points of Interest</string>
+    <string name="exit">Exit</string>
+    <string name="prefrences">Prefrences</string>
+    <string name="mainSearchViewHint">What would you like to find?</string>
+    <string name="main">Main</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_radius">searchRadius</string>
+    <string name="distance_units">distanceUnits</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="your_locatoin">You are here</string>
+    <string name="phone">Phone number</string>
+    <string name="search_radius_text">Search radius is :</string>
+    <string name="welcome_sentence">What would you like to do today?</string>
+    <string name="add_to_fav_or_share">Add to favorites or share ?</string>
+    <string name="add_to_fav">Add to favorites</string>
+    <string name="share">Share ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_from_fav">Remove from favorites?</string>
+    <string name="how_to_share">which app to use?</string>
+    <string name="check_out_this_place">Check out this cool place I found with Places</string>
+    <string name="clearFavotites">Clear Favorites</string>
+    <string name="clearFavCheck">Are you sure you want to clear favorite list?</string>
+    <string name="yes">Yes</string>
+    <string name="home">Home</string>
+    <string name="rating">Rating</string>
+    <string name="website">Web site</string>
+    <string name="no_site_available">No web site available</string>
+    <string name="open_now">Open now</string>
+    <string name="not_open_now">Closed at this time</string>
+    <string name="was_added_to_fav">was added to favorites</string>
+    <string name="homeTabName">Home</string>
+    <string name="favoritesTabName">Favorites</string>
+    <string name="aroundMeTabName">Around Me</string>
+    <string name="no_favorites_selected">No favorites were selected</string>
+    <string name="map_reload">Map is not ready, try again</string>
+    <string name="last_result_empty">No results available, please search again</string>
+    <string name="show_open_places">Show places open now</string>
+    <string name="current_radius">Current radius 500M</string>
+    <string name="change_radius">Search Radius in meters (press to change)</string>
+</resources>

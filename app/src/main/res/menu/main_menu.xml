@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainMenuPref"
+        android:title="@string/prefrences"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/mainMenuClearFavorites"
+        android:title="@string/clearFavotites"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/mainMenuExit"
+        android:title="@string/exit"
+        app:showAsAction="collapseActionView" />
+
+
+</menu>
