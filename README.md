@@ -7,3 +7,8 @@ so go get your API key and put it in Java -> AdaptersNServices -> PlaceDetailsIn
 
 public static final String KEY = "Update your key here";
 
+# Screen shots
+
+Main search - by keyword or category
+
+![](/mainActivity.png?raw=true)
