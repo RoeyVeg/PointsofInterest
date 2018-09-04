@@ -30,7 +30,7 @@ public class PlaceDetailsIntentService extends IntentService {
     //********** Intent service to maps-api nearby search with no Key word to get all places around user location with defined radius
 
     public static final String ACTION_PLACE_DETAILS = "place_details_broadcast";
-    public static final String KEY = "AIzaSyA0kg7SFWsNcmHGP8yGeZTAAfnBimMCsEc";
+    public static final String KEY = "Update your key here";
     public static final String RESPONSE_DETAILS = "responseDetails";
 
     @Override
